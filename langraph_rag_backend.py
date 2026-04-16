@@ -264,7 +264,7 @@ def tool_node_fn(state: ChatState, config=None):
 # -------------------
 # 7. Checkpointer
 # -------------------
-conn = sqlite3.connect(database="chatbot.db", check_same_thread=False)
+conn = sqlite3.connect(database="/tmp/chatbot.db", check_same_thread=False)
 checkpointer = SqliteSaver(conn=conn)
 
 # -------------------
