@@ -1,13 +1,3 @@
----
-title: LangGraph Multi-Agent App
-emoji: 🤖
-colorFrom: blue
-colorTo: green
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # LangGraph Multi-Agent App
 
 A Streamlit app combining two LangGraph-powered agents:
